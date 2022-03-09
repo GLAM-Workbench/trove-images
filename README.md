@@ -17,7 +17,6 @@ Jupyter notebooks to work with data from Trove's picture zone. For more informat
 
 <!-- START RUN INFO -->
 
-
 ## Run these notebooks
 
 There are a number of different ways to use these notebooks. Binder is quickest and easiest, but it doesn't save your data. I've listed the options below from easiest to most complicated (requiring more technical knowledge).
