@@ -1,0 +1,7 @@
+jupyterlab
+pandas
+requests
+tqdm
+python-dotenv
+ipywidgets
+requests-cache
