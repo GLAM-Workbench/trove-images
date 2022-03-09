@@ -1,6 +1,6 @@
 # Trove images
 
-Current version: [v1.0.0](https://github.com/GLAM-Workbench/trove-images/releases/tag/v1.0.0)
+Current version: [v1.0.1](https://github.com/GLAM-Workbench/trove-images/releases/tag/v1.0.1)
 
 Jupyter notebooks to work with data from Trove's picture zone. For more information see the [Trove images](https://glam-workbench.net/trove-images/) section of the GLAM Workbench.
 
