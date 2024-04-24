@@ -18,3 +18,7 @@ a116159h.jpg
 d1_10099h.jpg
 .env
 *.old
+git_all_versions.sh
+harvested-metadata-all.ndjson
+harvested-metadata.ndjson
+images-viewcopy.ndjson
