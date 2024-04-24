@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-04-24T04:32:27+00:00",
+            "datePublished": "2024-04-24",
             "description": "A GLAM Workbench repository",
             "hasPart": [
                 {
@@ -32,7 +32,8 @@
                 "@id": "https://glam-workbench.net/trove-images"
             },
             "name": "trove-images",
-            "url": "https://github.com/GLAM-Workbench/trove-images/"
+            "url": "https://github.com/GLAM-Workbench/trove-images/",
+            "version": "v2.0.0"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -46,6 +47,106 @@
             "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             }
+        },
+        {
+            "@id": "download-image-collection.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-images/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "Digitised photographs and other images are often organised into collections. While the Trove web interface does include a download option for collections, it has a number of limitations. This notebook provides an alternative method that downloads all of the available images in a collection (and any sub-collections) at the highest available resolution.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-images/download-image-collection/"
+            },
+            "name": "Download a collection of digitised images",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-images/blob/master/download-image-collection.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "rights-statements-on-images.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-images/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook uses Trove's `rights` index to build a picture of which licences and rights statements are currently being applied to images, and by who.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-images/use-of-rights-statements/"
+            },
+            "name": "The use of standard licences and rights statements in Trove image records",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-images/blob/master/rights-statements-on-images.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-images.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 19589,
+            "dateModified": "2024-04-24",
+            "description": "This dataset lists the number of images with each rights statement from organisations contributing to Trove.",
+            "encodingFormat": "text/csv",
+            "isPartOf": {
+                "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/"
+            },
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "name": "rights-on-images.csv",
+            "sdDatePublished": "2024-04-24",
+            "size": 216,
+            "url": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-images.csv"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-out-of-copyright-photos.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 15649,
+            "dateModified": "2024-04-24",
+            "description": "This dataset lists the number of out-of-copyright photographs with each rights statement from organisations contributing to Trove.",
+            "encodingFormat": "text/csv",
+            "isPartOf": {
+                "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/"
+            },
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "name": "rights-on-out-of-copyright-photos.csv",
+            "sdDatePublished": "2024-04-24",
+            "size": 171,
+            "url": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-out-of-copyright-photos.csv"
         },
         {
             "@id": "https://glam-workbench.net/trove-images",
@@ -121,35 +222,6 @@
             "url": "https://glam-workbench.net/trove-images/download-image-collection/"
         },
         {
-            "@id": "download-image-collection.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "category": "",
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-images/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
-            },
-            "description": "Digitised photographs and other images are often organised into collections. While the Trove web interface does include a download option for collections, it has a number of limitations. This notebook provides an alternative method that downloads all of the available images in a collection (and any sub-collections) at the highest available resolution.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-images/download-image-collection/"
-            },
-            "name": "Download a collection of digitised images",
-            "position": 0,
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/trove-images/blob/master/download-image-collection.ipynb",
-            "workExample": []
-        },
-        {
             "@id": "https://glam-workbench.net/trove-images/use-of-rights-statements/",
             "@type": "CreativeWork",
             "isPartOf": {
@@ -157,35 +229,6 @@
             },
             "name": "The use of standard licences and rights statements in Trove image records",
             "url": "https://glam-workbench.net/trove-images/use-of-rights-statements/"
-        },
-        {
-            "@id": "rights-statements-on-images.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "category": "",
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-images/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
-            },
-            "description": "This notebook uses Trove's `rights` index to build a picture of which licences and rights statements are currently being applied to images, and by who.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-images/use-of-rights-statements/"
-            },
-            "name": "The use of standard licences and rights statements in Trove image records",
-            "position": 0,
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/trove-images/blob/master/rights-statements-on-images.ipynb",
-            "workExample": []
         },
         {
             "@id": "https://glam-workbench.net/trove-images/trove-images-rights-data/",
@@ -208,54 +251,12 @@
             "workExample": []
         },
         {
-            "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-images.csv",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
-            "contentSize": 19589,
-            "dateModified": "2024-04-20",
-            "description": "This dataset lists the number of images with each rights statement from organisations contributing to Trove.",
-            "encodingFormat": "text/csv",
-            "isPartOf": {
-                "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/"
-            },
-            "license": {
-                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
-            },
-            "name": "rights-on-images.csv",
-            "sdDatePublished": "2024-04-24",
-            "size": 216,
-            "url": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-images.csv"
-        },
-        {
-            "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-out-of-copyright-photos.csv",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
-            "contentSize": 15649,
-            "dateModified": "2024-04-20",
-            "description": "This dataset lists the number of out-of-copyright photographs with each rights statement from organisations contributing to Trove.",
-            "encodingFormat": "text/csv",
-            "isPartOf": {
-                "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/"
-            },
-            "license": {
-                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
-            },
-            "name": "rights-on-out-of-copyright-photos.csv",
-            "sdDatePublished": "2024-04-24",
-            "size": 171,
-            "url": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-out-of-copyright-photos.csv"
-        },
-        {
             "@id": "#rights-statements-on-images_run_0",
             "@type": "CreateAction",
             "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
-            "endDate": "2024-04-20",
+            "endDate": "2024-04-24",
             "instrument": {
                 "@id": "rights-statements-on-images.ipynb"
             },
@@ -268,6 +269,15 @@
                     "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-out-of-copyright-photos.csv"
                 }
             ]
+        },
+        {
+            "@id": "#create_version_v2_0_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2024-04-24",
+            "name": "Create version v2.0.0"
         }
     ]
 }
