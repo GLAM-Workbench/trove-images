@@ -5,7 +5,7 @@
   "related_identifiers": [
     {
       "scheme": "url",
-      "identifier": "https://github.com/GLAM-Workbench/trove-images/tree/v2.0.0",
+      "identifier": "https://github.com/GLAM-Workbench/trove-images/tree/v2.1.0",
       "relation": "isDerivedFrom",
       "resource_type": "software"
     },
@@ -22,14 +22,14 @@
       "resource_type": "other"
     }
   ],
-  "version": "v2.0.0",
+  "version": "v2.1.0",
   "upload_type": "software",
   "keywords": [
     "digital humanities",
     "Jupyter",
     "GLAM Workbench"
   ],
-  "publication_date": "2024-04-24",
+  "publication_date": "2024-05-15",
   "creators": [
     {
       "orcid": "0000-0001-7956-4498",
@@ -37,5 +37,5 @@
     }
   ],
   "access_right": "open",
-  "description": "<p>A GLAM Workbench repository</p> <p>For more information and documentation see the <a href=\"https://glam-workbench.net/trove-images\">Trove images</a> section of the <a href=\"https://glam-workbench.net\">GLAM Workbench</a>.</p> <h2 id=\"notebooks\">Notebooks</h2> <ul> <li>Download a collection of digitised images</li> <li>The use of standard licences and rights statements in Trove image records</li> </ul> <h2 id=\"associated-datasets\">Associated datasets</h2> <ul> <li><a href=\"https://github.com/GLAM-Workbench/trove-images-rights-data/\">trove-images-rights-data</a></li> </ul> <hr /> <p>Created by <a href=\"https://timsherratt.au\">Tim Sherratt</a> for the <a href=\"https://glam-workbench.net\">GLAM Workbench</a></p>"
+  "description": "<p>A GLAM Workbench repository</p> <p>For more information and documentation see the <a href=\"https://glam-workbench.net/trove-images\">Trove images</a> section of the <a href=\"https://glam-workbench.net\">GLAM Workbench</a>.</p> <h2 id=\"notebooks\">Notebooks</h2> <ul> <li>Download a collection of digitised images</li> <li>Save a collection of digitised images as an IIIF manifest</li> <li>The use of standard licences and rights statements in Trove image records</li> </ul> <h2 id=\"associated-datasets\">Associated datasets</h2> <ul> <li><a href=\"https://github.com/GLAM-Workbench/trove-images-rights-data/\">trove-images-rights-data</a></li> </ul> <hr /> <p>Created by <a href=\"https://timsherratt.au\">Tim Sherratt</a> for the <a href=\"https://glam-workbench.net\">GLAM Workbench</a></p>"
 }
