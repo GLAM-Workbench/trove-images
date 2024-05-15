@@ -9,11 +9,14 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-04-24",
+            "datePublished": "2024-05-15",
             "description": "A GLAM Workbench repository",
             "hasPart": [
                 {
                     "@id": "download-image-collection.ipynb"
+                },
+                {
+                    "@id": "save-image-collection-iiif.ipynb"
                 },
                 {
                     "@id": "rights-statements-on-images.ipynb"
@@ -33,7 +36,7 @@
             },
             "name": "trove-images",
             "url": "https://github.com/GLAM-Workbench/trove-images/",
-            "version": "v2.0.0"
+            "version": "v2.1.0"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -78,6 +81,35 @@
             "workExample": []
         },
         {
+            "@id": "save-image-collection-iiif.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-images/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook harvests metadata describing the contents of a digitised collection in Trove and saves it as an IIIF manifest.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-images/save-image-collection-iiif/"
+            },
+            "name": "Save a collection of digitised images as an IIIF manifest",
+            "position": 0,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-images/blob/master/save-image-collection-iiif.ipynb",
+            "workExample": []
+        },
+        {
             "@id": "rights-statements-on-images.ipynb",
             "@type": [
                 "File",
@@ -108,10 +140,7 @@
         },
         {
             "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-images.csv",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
+            "@type": "File",
             "contentSize": 19589,
             "dateModified": "2024-04-24",
             "description": "This dataset lists the number of images with each rights statement from organisations contributing to Trove.",
@@ -123,16 +152,12 @@
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             },
             "name": "rights-on-images.csv",
-            "sdDatePublished": "2024-04-24",
-            "size": 216,
+            "sdDatePublished": "2024-05-15",
             "url": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-images.csv"
         },
         {
             "@id": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-out-of-copyright-photos.csv",
-            "@type": [
-                "File",
-                "Dataset"
-            ],
+            "@type": "File",
             "contentSize": 15649,
             "dateModified": "2024-04-24",
             "description": "This dataset lists the number of out-of-copyright photographs with each rights statement from organisations contributing to Trove.",
@@ -144,8 +169,7 @@
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             },
             "name": "rights-on-out-of-copyright-photos.csv",
-            "sdDatePublished": "2024-04-24",
-            "size": 171,
+            "sdDatePublished": "2024-05-15",
             "url": "https://github.com/GLAM-Workbench/trove-images-rights-data/raw/main/rights-on-out-of-copyright-photos.csv"
         },
         {
@@ -222,6 +246,15 @@
             "url": "https://glam-workbench.net/trove-images/download-image-collection/"
         },
         {
+            "@id": "https://glam-workbench.net/trove-images/save-image-collection-iiif/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Save a collection of digitised images as an IIIF manifest",
+            "url": "https://glam-workbench.net/trove-images/save-image-collection-iiif/"
+        },
+        {
             "@id": "https://glam-workbench.net/trove-images/use-of-rights-statements/",
             "@type": "CreativeWork",
             "isPartOf": {
@@ -236,7 +269,7 @@
             "isPartOf": {
                 "@id": "https://glam-workbench.net"
             },
-            "name": "Trove images rights data",
+            "name": "Rights applied to images by each Trove contributor",
             "url": "https://glam-workbench.net/trove-images/trove-images-rights-data/"
         },
         {
@@ -278,6 +311,15 @@
             },
             "endDate": "2024-04-24",
             "name": "Create version v2.0.0"
+        },
+        {
+            "@id": "#create_version_v2_1_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2024-05-15",
+            "name": "Create version v2.1.0"
         }
     ]
 }

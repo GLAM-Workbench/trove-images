@@ -250,7 +250,9 @@ jupyterlab-pygments==0.3.0
     #   -c requirements.txt
     #   nbconvert
 lxml==5.2.1
-    # via -r requirements-dev.in
+    # via
+    #   -c requirements.txt
+    #   -r requirements-dev.in
 markdown-it-py==3.0.0
     # via rich
 marko==2.0.3
